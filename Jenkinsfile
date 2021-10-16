@@ -8,7 +8,7 @@ pipeline {
     }
 
   }
-  stage('Tuild') {
+  stage('Test') {
       steps {
         echo 'Testing ...'
       }
